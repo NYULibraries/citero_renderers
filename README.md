@@ -1,7 +1,7 @@
 Citero Renderers
 ===============
 
-Renderers for Citero for Rails 3, 4.
+Renderers for Citero for Rails 3, 4. This gem is based entirely off of [beerlington](https://github.com/beerlington)'s wonderful [csv_renderer](https://github.com/beerlington/render_csv).
 
 How to use
 ==========
