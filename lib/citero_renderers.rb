@@ -7,8 +7,6 @@ module CiteroRenderers
       require 'citero_renderers/mime_types/bibtex_mime_type'
       require 'action_controller/metal/renderers'
       # Adds a renderer for BibTeX.
-      require 'pry'
-      # binding.pry
       ActionController.add_renderer :bibtex do |bibtex,option|
         bibtex.extend CiteroRenderers::BibtexRenderable unless bibtex.respond_to?(:to_bibtex)
         filename = (bibtex.respond_to?(:to_param) and bibtex.class.respond_to?(:acts_as_citable)) ? bibtex.to_param : "export"
