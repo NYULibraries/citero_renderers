@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = CiteroRenderers::VERSION
   s.authors     = ["hab278"]
   s.email       = ["hab278@nyu.edu"]
-  s.date        = "2015-1-30"
+  s.date        = "2015-01-30"
   s.summary     = "Renderers for some citero objects."
   s.description = "Renders citero objects for Rails applications."
   s.homepage    = "https://github.com/NYULibraries/citero_renderers"
